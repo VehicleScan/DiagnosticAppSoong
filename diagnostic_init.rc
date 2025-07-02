@@ -1,0 +1,9 @@
+service diagnostic_init /vendor/bin/diagnostic_init
+    class late_start
+    user root
+    group root
+    seclabel u:r:vendor_init:s0
+    oneshot
+
+on boot
+    start diagnostic_init

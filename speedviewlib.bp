@@ -1,0 +1,12 @@
+android_library {
+    name: "speedviewlib",
+
+    srcs: ["src/main/java/**/*.java"],
+    resource_dirs: ["src/main/res"],
+    manifest: "src/main/AndroidManifest.xml",
+
+    sdk_version: "current",
+    static_libs: [
+        "androidx.appcompat_appcompat",
+    ],
+}
