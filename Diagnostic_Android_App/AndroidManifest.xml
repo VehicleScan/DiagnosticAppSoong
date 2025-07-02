@@ -2,7 +2,7 @@
     package="com.example.diagnostic_android_app">
 
     <application
-        android:label="Test Log App"
+        android:label="DiagnosticApp"
         android:theme="@android:style/Theme.DeviceDefault">
         
         <activity android:name=".MainActivity"
@@ -10,6 +10,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
