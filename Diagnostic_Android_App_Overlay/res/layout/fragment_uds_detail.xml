@@ -30,6 +30,6 @@ android:layout_height="wrap_content"
 android:layout_marginTop="32dp"
 android:backgroundTint="#0865D2" 
     android:textColor="#FFFFFF"
-    android:text="@string/back"
+    android:text="Back"
     android:textSize="16sp" />
     </LinearLayout>
